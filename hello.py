@@ -4,3 +4,11 @@ def greet(name):
 
 if __name__ == "__main__":
     print(greet("World"))
+
+def farewell(name):
+    """A simple farewell function."""
+    return f"Goodbye, {name}!"
+
+if __name__ == "__main__":
+    print(greet("World"))
+    print(farewell("World"))
